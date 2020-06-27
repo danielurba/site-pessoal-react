@@ -1,0 +1,8 @@
+.app {
+    display: grid;
+    grid-template-rows: 520px 900px 200px;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}
