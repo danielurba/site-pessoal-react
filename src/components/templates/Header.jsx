@@ -32,4 +32,12 @@ export default props =>
         <div className="back">
             <img src={Post1} alt="programer"/>
         </div>
+        <div className="info">
+            <h1>DANIEL URBANEKI</h1>
+            <span>DESENVOLVEDOR WEB</span>
+            <span>FREELANCER</span>
+            <span>BACK-END</span>
+            <span>FRONT-END</span>
+            <span>PROGRAMADOR EM JAVASCRIPT</span>
+        </div>
     </header>

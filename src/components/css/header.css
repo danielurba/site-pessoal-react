@@ -1,6 +1,5 @@
 header {
     grid-area: header;
-    display: flex;
 }
 
 header .menu {
@@ -28,7 +27,6 @@ header .menu {
 }
 
 .logo {
-    /* width: 200px; */
     height: 100px;
 }
 
@@ -43,6 +41,10 @@ header .menu {
     padding: 20px;
     text-decoration: none;
     color: #fff;
+}
+
+.barra a:hover {
+    color: rgb(106, 206, 252);
 }
 
 .icons {
@@ -60,6 +62,10 @@ header .menu {
     color: #fff;
 }
 
+.icons i:hover {
+    color: rgb(106, 206, 252);
+}
+
 .back img{
     position: fixed;
     top: 0;
@@ -69,4 +75,20 @@ header .menu {
     overflow: hidden;
     z-index: -100;
     
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 120px;
+    font-size: 1.4rem;
+}
+
+.info h1 {
+    color: #fff;
+}
+
+.info span {
+    color: #45ada8;
+    padding: 10px 0px;
 }

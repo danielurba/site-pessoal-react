@@ -1,4 +1,87 @@
 main {
     grid-area: main;
+}
+
+.services {
+    background-color: #2a363b;
+}
+
+.portifo {
+    background-color: #3a2d32;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #000;
+    color: #fff;
+    height: 100%;
+    width: 200px;
+}
+
+.works, .porti-itens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.works li {
+    width: 400px;
+    margin: 30px;
+    list-style: none;
+    text-align: center;
+    color: #fff;
+}
+
+.porti-itens li {
+    width: 600px;
+    margin: 30px;
+    list-style: none;
+    text-align: center;
+    color: #fff;
+}
+
+.porti-itens section {
+    padding-bottom: 20px;
+}
+
+.porti-itens a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.porti-itens a:hover {
+    color: rgb(106, 206, 252);
+}
+
+.container-imgs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+.container-imgs .web {
+    padding: 20px;
+    width: 200px;
+    height: 120px;
+}
+
+.container-imgs .mob {
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+}
+
+.container-imgs .pdf {
+    padding: 20px;
+    width: 200px;
 }
