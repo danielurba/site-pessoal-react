@@ -7,7 +7,16 @@ main {
 }
 
 .portifo {
-    background-color: #3a2d32;
+    background-color: #2e2d3a;
+}
+
+.sobre {
+    background-color: rgb(22, 22, 22);
+}
+
+.contato {
+    background-color: #222;
+    height: 450px;
 }
 
 .title {
@@ -32,6 +41,21 @@ main {
     flex-wrap: wrap;
 }
 
+.contato-itens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+
+.sobre-itens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 0px;
+}
+
 .works li {
     width: 400px;
     margin: 30px;
@@ -48,6 +72,30 @@ main {
     color: #fff;
 }
 
+.contato-itens li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: #fff;
+}
+
+.contato-itens a {
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.contato-itens a:hover {
+    color: rgb(106, 206, 252);
+}
+
+.contato-itens i {
+    color: #fff;
+    margin-right: 5px;
+}
+
 .porti-itens section {
     padding-bottom: 20px;
 }
@@ -59,6 +107,13 @@ main {
 
 .porti-itens a:hover {
     color: rgb(106, 206, 252);
+}
+
+.sobre-itens li {
+    width: 600px;
+    list-style: none;
+    color: #fff;
+    line-height: 2;
 }
 
 .container-imgs {
@@ -84,4 +139,20 @@ main {
 .container-imgs .pdf {
     padding: 20px;
     width: 200px;
+}
+
+@media (max-width: 640px) {
+    .sobre-itens img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .sobre-itens li {
+        width: 300px;
+    }
+
+    .contato-itens {
+        font-size: 0.9rem;
+        text-align: center;
+    }
 }
